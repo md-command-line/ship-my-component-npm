@@ -5,7 +5,9 @@ adds webpack and some folder conventions to let you publish components to npm pu
 ## Important for the init command: 
   ## specify the entrypoint: build/index.js  
   ## specify test: webpack 
-npm init 
+npm init &&
+mkdir build &&
+curl -L -o webpack.config.js https://raw.githubusercontent.com/MichaelDimmitt/ship-my-component-npm/master/webpack.config.js &&
 
 npm install react@15.5.4 webpack@2.6.1 && 
 npm install -D babel-cli@6.24.1 babel-core@6.24.1 babel-loader@7.0.0 babel-plugin-transform-object-rest-spread@6.23.0 babel-plugin-transform-react-jsx@6.24.1 babel-preset-env@1.5.1 &&
