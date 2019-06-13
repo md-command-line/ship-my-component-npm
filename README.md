@@ -2,10 +2,7 @@
 adds webpack and some folder conventions to let you publish components to npm publically.
 
 ```bash
-## Important for the init command: 
-  ## specify the entrypoint: build/index.js  
-  ## specify test: webpack 
-npm init &&
+npx ship-my-component-npm-init
 mkdir build &&
 curl -L -o webpack.config.js https://raw.githubusercontent.com/MichaelDimmitt/ship-my-component-npm/master/webpack.config.js &&
 
