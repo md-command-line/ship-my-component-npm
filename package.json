@@ -1,0 +1,23 @@
+{
+  "name": "ship-my-component-npm",
+  "version": "0.1.0",
+  "bin": "./ship-my-component-npm.bash",
+  "description": "adds webpack and some folder conventions to let you publish components to npm publically.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelDimmitt/ship-my-component-npm.git"
+  },
+  "keywords": [
+    "npm",
+    "init",
+    "bash",
+    "component",
+    "react"
+  ],
+  "author": "michael dimmitt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelDimmitt/ship-my-component-npm/issues"
+  },
+  "homepage": "https://github.com/MichaelDimmitt/ship-my-component-npm#readme"
+}
