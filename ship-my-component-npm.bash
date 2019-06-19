@@ -13,4 +13,5 @@ fi
 
 cleanup(){
   rm -rf node_modules package.json package-lock.json webpack.config.js build
+  echo 'cleanup command DONE'
 }

@@ -1,7 +1,15 @@
 # ship-my-component-npm
-adds webpack and some folder conventions to let you publish components to npm publically.
+React follows a convention where the index.js file is responsible for exporting contents of a folder. 
+<br/>This project will publish your component if run from a folder with an index.js file that exports the component. 
 
-Great for open sourcing a single component folder of your react application, such as releasing a login screen for people to utilize and modify.
+1) Adds webpack and some folder conventions to let you publish components to npm publically. 
+
+2) Has a cleanup command to remove what was added.
+
+3) Great for open sourcing a single component folder of your react application
+<br/>such as releasing a login screen for people to utilize and modify.
+
+4) Easy for a developer to upgrade the version number when republishing their component.
 
 ## Verified working on Ubuntu-Linux ✅ Macintosh Mojave ✅
 
@@ -39,13 +47,11 @@ render(){
 ```
 
 This project was made possible thanks to the following blog post:
-https://medium.com/@BrodaNoel/how-to-create-a-react-component-and-publish-it-in-npm-668ad7d363ce
+<br/>https://medium.com/@BrodaNoel/how-to-create-a-react-component-and-publish-it-in-npm-668ad7d363ce
 
 In the article a src directory is used. This project has changed the webpack config so as to use the current directory not a src directory.
 
-## Why does this project use a build directory but not a src directory.
-React follows a convention where the index.js file is responsible for exporting contents of a folder. 
-
+## Contribute 
 Per request, additional modifications could be added to make these scoped packages so that they stay within a company.
 
 Let me know if you find this useful, on twitter m_dimmitt
@@ -58,7 +64,7 @@ Current Contributors: [Vladamir Pliuta](https://github.com/VolodymyrPliuta) [Mic
 
 ## Known projects published using ship my component: (feel free to submit a pr if you published a react component!)
 [react-publish-ship](https://www.npmjs.com/package/react-publish-ship) [source](https://github.com/nodejs7/React-component-to-npm.git)
-[hello-world-npm-component](https://www.npmjs.com/package/hello-world-npm-component) [source](https://github.com/MichaelDimmitt/hello-world-npm-component)
+<br/>[hello-world-npm-component](https://www.npmjs.com/package/hello-world-npm-component) [source](https://github.com/MichaelDimmitt/hello-world-npm-component)
 
 Below is a project with a ton of components, using the script for this project I could easily share a front end component with the outside world.
 ![Screen Shot 2019-06-03 at 1 48 49 PM](https://user-images.githubusercontent.com/11463275/58822844-67264d80-8606-11e9-88d4-5e695b45d246.png)
