@@ -2,17 +2,19 @@
 adds webpack and some folder conventions to let you publish components to npm publically.
 
 ```bash
-npx ship-my-component-npm-init &&
-mkdir build &&
-curl -L -o webpack.config.js https://raw.githubusercontent.com/MichaelDimmitt/ship-my-component-npm/master/webpack.config.js &&
+{
+npx ship-my-component-npm-init;
+mkdir build;
+curl -L -o webpack.config.js https://raw.githubusercontent.com/MichaelDimmitt/ship-my-component-npm/master/webpack.config.js;
 
-npm install react@15.5.4 webpack@2.6.1 && 
-npm install -D babel-cli@6.24.1 babel-core@6.24.1 babel-loader@7.0.0 babel-plugin-transform-object-rest-spread@6.23.0 babel-plugin-transform-react-jsx@6.24.1 babel-preset-env@1.5.1 &&
-npm test &&
+npm install react@15.5.4 webpack@2.6.1;
+npm install -D babel-cli@6.24.1 babel-core@6.24.1 babel-loader@7.0.0 babel-plugin-transform-object-rest-spread@6.23.0 babel-plugin-transform-react-jsx@6.24.1 babel-preset-env@1.5.1;
+npm test;
 npm publish
+}
 
 ## cleanup
-rm -rf node_modules package.json package-lock.json webpack.config.js 
+rm -rf node_modules package.json package-lock.json webpack.config.js build  
 ```
 This project was made possible thanks to the following blog post:
 https://medium.com/@BrodaNoel/how-to-create-a-react-component-and-publish-it-in-npm-668ad7d363ce
