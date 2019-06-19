@@ -26,6 +26,25 @@ npm publish;
 ## cleanup
 rm -rf node_modules package.json package-lock.json webpack.config.js build  
 ```
+
+## Example for your react project:
+run this command in the terminal
+```bash
+npm install react-publish-ship
+```
+
+include the nodemodule in your react project
+```javascript 
+import ReactPublishShip from 'react-publish-ship';
+...
+render(){
+  <div>
+    <ReactPublishShip />
+  </div>
+}
+...
+```
+
 This project was made possible thanks to the following blog post:
 https://medium.com/@BrodaNoel/how-to-create-a-react-component-and-publish-it-in-npm-668ad7d363ce
 
