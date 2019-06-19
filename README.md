@@ -1,6 +1,16 @@
 # ship-my-component-npm
 adds webpack and some folder conventions to let you publish components to npm publically.
 
+## Verified working on Ubuntu-Linux ✅ Macintosh Mojave ✅
+
+## Linux Users
+```
+# ensure expect is installed
+sudo apt-get install expect;
+
+# expect is a unix program that comes by default on a mac. It allows your program to interact with another applications prompt. This project uses expect to interact with npm init. Decreasing the amount of prompts from 8 prompts to 3 prompts.
+```
+
 ```bash
 {
 npx ship-my-component-npm-init;
@@ -10,7 +20,7 @@ curl -L -o webpack.config.js https://raw.githubusercontent.com/MichaelDimmitt/sh
 npm install react@15.5.4 webpack@2.6.1;
 npm install -D babel-cli@6.24.1 babel-core@6.24.1 babel-loader@7.0.0 babel-plugin-transform-object-rest-spread@6.23.0 babel-plugin-transform-react-jsx@6.24.1 babel-preset-env@1.5.1;
 npm test;
-npm publish
+npm publish;
 }
 
 ## cleanup
